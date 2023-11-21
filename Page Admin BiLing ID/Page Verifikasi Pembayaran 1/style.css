@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen{
+  .navbar .container-fluid, .navbar-expand-lg .navbar-collapse .navbar-nav{
+      
+
+      flex-direction:column;
+      align-items: flex-start;
+  }
+  .navbar{
+      
+      width: auto;
+      align-items: flex-start;
+  }
+
+  .navbar-brand{
+      
+      font-size: auto;
+      font-weight: bold;
+  }
+
+  .Logout{
+      margin-top: 193px;
+  }
+
+  .pilihan button {
+      background-color: #FF0000; /* Ganti warna latar belakang sesuai keinginan Anda */
+      border: none; /* Menghilangkan border */
+      border-radius: 20px; /* Menentukan radius untuk membuat latar belakang berbentuk rounded */
+      padding: 5px 10px; /* Menentukan padding untuk memberikan ruang di sekitar teks */
+      color: #FFFFFF; /* Warna teks */
+  }
+}
+
+.Gambar{
+  padding: 0%;
+  background-color: #ffff;
+  border-top: #ffff;
+  border-left: #ffff;
+  border-right: #ffff;
+  border-bottom: #ffff;
+}
+.bordered{
+  border: solid;
+}
+
+.contoh{
+  height: 100vh;
+  background-color: #ffffff;
+}
+.bordered{
+  border: solid;
+}
+
+.contoh{
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+th{
+  text-align: center;
+  font-family: Poppins;
+}
+
+.table {
+  margin-top: 15px;
+  text-align: center;
+  width: 1300px; /* Set the width of the table to 100% of its containing element */
+  border-collapse: collapse; /* Optional, for better border rendering */
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Adjust the radius as needed */
+  }
+
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  }
+            
+.Gambar {
+  display: inline-block;
+}
+
+th.center-text {
+  text-align: center; /* Center the text within the table cell */
+}
+
+td.success{
+  padding-top: 12px;
+  padding-bottom: 0px;
+  border: none;
+  background-color: #EEF5FF; /* Background color for "Berhasil" */
+  color: #2E7DF1; /* Text color for contrast */
+  font-family: Poppins; /* Font-family (You can replace with your preferred font) */
+  font-weight:bold;
+  border-radius: 10px; /* Rounded background */
+  text-align: center; /* Center text horizontally */
+}
+
+td.hapus{
+  padding-top: 17px;
+  padding-bottom: 0px;
+  background-color: #133a70; /* Background color for "Berhasil" */
+  color: #2E7DF1; /* Text color for contrast */
+  font-family: Poppins; /* Font-family (You can replace with your preferred font) */
+  font-weight:bold;
+  border-radius: 10px; /* Rounded background */
+  text-align: center; /* Center text horizontally */
+}
+
+td.gagal{
+  color: #F5C556;
+  text-align: center;
+  margin: 200px;
+}
+
+ td.tengah{
+  text-align: center;
+  margin: 200px;
+}
+
+td.text{
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 0px;
+}
+
+.custom-button {
+  border: none;
+  border-radius: 40px; /* Rounded border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #FFFFFF; /* Text color */
+  }
+
+.navbar-button{
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-left: -8px;
+  width: 75%;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.tambah-button{
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-left: -7px;
+  text-align: left;
+  color: #FFFFFF;
+}
+                
+.button-option-1 {
+  background-color: #2E7DF1; /* Background color for option 1 */
+}
+                
+.button-option-2 {
+  background-color: #FEF8E8; /* Background color for option 2 */
+}
+
+.verif-button{
+  border: none;
+  border-radius: 40px; /* Rounded border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #2E7DF1; /* Text color */
+
+}
+
+.pending-button{
+  border: none;
+  border-radius: 40px; /* Rounded border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #F5C556 /* Text color */
+
+}
+
+.button-option-3 {
+  background-color: #EEF5FF; /* Background color for option 1 */
+}
